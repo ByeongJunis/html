@@ -15,3 +15,9 @@ html5 class
   - HTML 인라인 프레임 생성
   - HTML 미디어 삽입
   - HTML Self Site 제작
+
+- wk04 upload
+  - HTML 시맨틱 태그 활용
+  - HTML 웹 폼 구성
+  - HTML 폼 요소 활용
+  - HTML label 태그 사용 
