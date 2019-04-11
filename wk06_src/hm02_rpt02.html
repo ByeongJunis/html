@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+
+<head>
+    <!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+    <meta charset="utf-8">
+    <title> hm02 MERRY X-MAS </title>
+    <style>
+			
+			img {position: absolute;}
+			#a {
+				z-index: 1;
+				left: 10px;
+				top: 20px;
+			}
+			#b {
+				z-index: 2;
+				left: 100px;
+				top: 100px;
+        }
+        #c {
+				z-index: 3;
+				left: 220px;
+				top: 410px;
+        }
+        #d {
+				z-index: 3;
+				left: 380px;
+				top: 310px;
+        }
+        #e {
+				z-index: 3;
+				left: 280px;
+				top: 210px;
+        }
+        #fixed {
+            position : absolute;
+            z-index: 4;
+            top : 120px;
+            left : 130px;
+            width : 100px;
+            padding : 5px;
+            background : red;
+            color : white;
+        }
+        #name {
+            position : absolute;
+            z-index: 4;
+            top : 450px;
+            left : 350px;
+            width : 100px;
+            padding : 5px;
+            background : yellow;
+            color : blue;
+        }
+        #audio {
+            position : absolute;
+            z-index: 4;
+            top : 160px;
+            left : -270px;
+            
+        }
+        
+        @keyframes textColorAnimation {
+			0% { color : blue; }
+			30% { color : green; font-size: 4em}
+			100% { color : red; font-size: medium}
+			}
+			span:hover {
+				animation-name: textColorAnimation;
+				animation-duration: 5s;
+			}
+        
+
+		</style>
+		<script></script>
+	</head>
+
+	<body>
+		
+		<div>
+			<img id="a" src="media/AA.PNG"
+			width="700" height="700" alt="a">
+			<img id="b" src="media/christmastree.png"
+			width="500" height="500" alt="v">
+            <img id="c" src="media/1.PNG"
+			width="70" height="70" alt="c">
+            <img id="d" src="media/2.PNG"
+			width="70" height="70" alt="d">
+            <img id="e" src="media/3.PNG"
+			width="70" height="70" alt="e">
+			<div id="fixed">Merry Christmas
+            <div id="name"><span>hm02, 구병준</span>
+            <audio id="audio" src="media/징글벨(동요).mp3" controls autoplay loop>
+        </div>
+            
+                
+
+
+</body>
+
+</html>
