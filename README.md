@@ -35,3 +35,14 @@ html5 class
   - HTML CSS3 폼 꾸미기
   - HTML CSS3 표 꾸미기
   - HTML CSS3 스타일 리스트 메뉴 만들기 
+  
+- wk09 upload
+  - Visual Studio Code 사용
+  - javascript 기본 교육
+  - javascript 다이얼로그
+  - javascript 식별자
+  - javascript 데이터 타입
+  - javascript 변수
+  - javascript 상수
+  - javascript 식과 연산
+  - javascript 간단한 계산기 만들기 
