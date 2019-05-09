@@ -46,3 +46,12 @@ html5 class
   - javascript 상수
   - javascript 식과 연산
   - javascript 간단한 계산기 만들기 
+
+- wk10 upload
+  - javascript 식과 연산 part 2
+  - javascript 문자열 연산
+  - javascript 조건문 if,switch
+  - javascript 반복문 for,while,do while,break,continue
+  - javascript 함수 function 활용
+  - javascript 를 이용한 계산기 및 온도계 제작 
+  
