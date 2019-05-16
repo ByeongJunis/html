@@ -55,3 +55,12 @@ html5 class
   - javascript 함수 function 활용
   - javascript 를 이용한 계산기 및 온도계 제작 
   
+- wk11 upload
+  - javascript 객체의 기본개념 이해
+  - javascript Data 객체 활용
+  - javascript String 객체 활용
+  - javascript 배열 활용
+  - javascript Array 객체 활용
+  - javascript Math 객체 활용
+  - javascript student,box (DIY) 제작
+  
