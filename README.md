@@ -64,3 +64,10 @@ html5 class
   - javascript Math 객체 활용
   - javascript student,box (DIY) 제작
   
+- wk12 upload
+  - javascript DOM 의 이해
+  - javascript BOM 의 이해
+  - javascript 버튼 reset 함수 설정
+  - document 객체를 이해
+  - javascript DIY 구현
+  
