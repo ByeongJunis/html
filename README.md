@@ -71,3 +71,11 @@ html5 class
   - document 객체를 이해
   - javascript DIY 구현
   
+-wk13 upload
+  - javascript event 정의
+  - javascript event DOM 트리 경로 알기
+  - javascript mouse event 활용
+  - javascript on load 리스너 활용
+  - javascript key event 활용
+  
+  
