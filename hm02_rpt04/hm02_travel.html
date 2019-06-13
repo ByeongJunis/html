@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>여행 가고싶은 나라</title>
+</head>
+
+
+    <script> 
+    function showImage() { 
+        var sel = document.getElementById("trip");
+        var img = document.getElementById("tripimage"); 
+        img.src = sel.options[sel.selectedIndex].value; }
+
+    
+      function openURL() {
+        var select = document.getElementById("site");
+        url = select.options[select.selectedIndex].value;
+        window.open(url, "myWin", "left=300,top=300,width=1000,height=800");
+      }
+
+
+    </script> 
+    </head>
+    <h3>My Best 3 trip</h3> 
+    <hr>
+    <h3>사이트로 이동</h3>
+        나라 선택 :
+        <select id="site" onchange="openURL();">
+          <option value="#">Select 나라</option>
+          <option value="https://terms.naver.com/entry.nhn?docId=956880&cid=43938&categoryId=43958">미국 </option>
+          <option value="https://terms.naver.com/entry.nhn?docId=1127117&cid=40942&categoryId=34082">영국 </option>
+          <option value="https://terms.naver.com/entry.nhn?docId=1522651&cid=43961&categoryId=43962">캐나다 </option>
+        </select>
+
+    <body onload="showImage()"> 
+         <hr><h3>나라 사진 보기</h3><p> 
+             <select id="trip" onchange="showImage()">
+    <option value="media/trip_select.png">Select 나라</option>
+    <option value="https://w.namu.la/s/26dc95a06cb9450a705a1f06baaad53362d2f95164d65d9616221d9c5249217c9b0ad24273da5da2b3e15f9d2a63839a5196235b52bda1a43762d48e14f00ad16aec0780d0862c42f1b6076fe6c2d51506e04e6110e935a49fa55d63231ed234">미국
+    <option value="https://w.namu.la/s/7c839c5b465d4f1696ccd832ebbcb6d3c87d3150f01b0c75a194189cb5db5053c9a637b9d76c8f70b32fa1bc263bbbd52701bdd0091d731b8964725b4211277da9ea29632ee9623fe4d48ca8837c73e40cd03b3e0cf7f6008554ecef52c8838d">영국
+    <option value="https://w.namu.la/s/9789938f8c9e6c7934a6e12fa423d04d7046b0d9ee3c10e4b11e0c78b3ee18039667e506f43d6f4d33c6794ab4d3e40e45a3b3458be41c38b0874bf1dbb51eea3c39bf1e00b85972a5f6c316594454b5faca349fabdf3ea710bcfdd14bc4a328">캐나다 </select>
+        <br>
+        <img id="tripimage"> 
+    
+</body>
+</html>

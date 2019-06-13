@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Best 3 movies</title>
+</head>
+
+
+    <script> 
+    function showImage() { 
+        var sel = document.getElementById("movie");
+        var img = document.getElementById("movieimage"); 
+        img.src = sel.options[sel.selectedIndex].value; }
+
+    
+      function openURL() {
+        var select = document.getElementById("site");
+        url = select.options[select.selectedIndex].value;
+        window.open(url, "myWin", "left=300,top=300,width=1000,height=800");
+      }
+
+
+    </script> 
+    </head>
+    <h3>My Best 3 movies</h3> 
+    <hr>
+    <h3>사이트로 이동</h3>
+        영화 선택 :
+        <select id="site" onchange="openURL();">
+          <option value="#">Select movie</option>
+          <option value="https://youtu.be/Hp8I4JBhls4">극한 직업 </option>
+          <option value="https://youtu.be/PVP5ZJuI57c">어벤져스 : 엔드게임 </option>
+          <option value="https://youtu.be/fei0t3TlbFQ">캡틴 마블 </option>
+        </select>
+
+    <body onload="showImage()"> 
+         <hr><h3>영화 포스터 보기</h3><p> 
+             <select id="movie" onchange="showImage()">
+    <option value="media/movie_select.png">Select movie</option>
+    <option value="http://imgnews.naver.net/image/5119/2019/01/24/0000673754_001_20190124102830275.png">극한 직업
+    <option value="http://post.phinf.naver.net/MjAxOTAzMTVfNTkg/MDAxNTUyNjE4NDI4MTU4.jA7MVdhTNp-7Sb6gdR3f6PcjokvE2D5BaFY3CXtAKMsg.YaV0u-2hFFaWik8xErP2M7s2VrlqN2dVi-gDG6dPNx0g.JPEG/IqCdVLVdIfhR5s1Y9bGKTbPJd3DU.jpg">어벤져스 : 엔드게임
+    <option value="https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2019%2F01%2Fcaptain-marvel-time-travel-samuel-jackson-spoil-1.jpg?q=90&w=1400&cbr=1&fit=max">캡틴 마블 </select>
+        <br>
+        <img id="movieimage"> 
+    
+</body>
+</html>
